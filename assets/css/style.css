@@ -1,0 +1,44 @@
+header{
+    background-image: url("../images/02-hero-bg.jpg");
+    min-height: 20vh;
+}
+
+#aboutText{
+border-left: 15px, solid, black;
+}
+
+
+#aboutSection{
+    display: flex;
+}
+
+#firstProject{
+    background-image: url("../images/02-portfolio-1.jpg");
+    min-height: 40vh;
+}
+
+#secondProject{
+    background-image: url("../images/02-portfolio-2.jpg");
+    min-height: 15vh;
+}
+
+#thirdProject{
+    background-image: url("../images/02-portfolio-3.jpg");
+    min-height: 15vh;
+}
+
+#fourthProject{
+    background-image: url("../images/02-portfolio-4.jpg");
+    min-height: 15vh;
+}
+
+#fifthProject{
+    background-image: url("../images/02-run-buddy.jpg");
+    min-height: 15vh;
+}
+
+@media (max-width:768px) {
+    #firstProject{
+        min-height: 15vh;
+    }
+}
